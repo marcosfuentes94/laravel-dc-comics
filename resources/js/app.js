@@ -1,11 +1,12 @@
 import './bootstrap';
 
-// Import our custom CSS
+// Importiamo il nostro stile custom
 import '~resources/scss/app.scss';
 
-// Import all of Bootstrap's JS
+// Importiamo la parte JS di Bootstrap
 import * as bootstrap from 'bootstrap';
 
+// Istruiamo Vite e Blade affinchè processino correttamente i nostri assets
 import.meta.glob([
     '../img/**'
 ]);
